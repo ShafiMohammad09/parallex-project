@@ -1,0 +1,201 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "poppins", "sans-serif";
+      }
+
+      main {
+        height: 100vh;
+        /* width: 100%; */
+        overflow-x: hidden;
+        perspective: 10px;
+      }
+
+      .container {
+        position: relative;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform-style: preserve-3d;
+        z-index: -1;
+      }
+
+      .container img {
+        position: absolute;
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        z-index: -1;
+      }
+
+      #background {
+        transform: translateZ(-39px) scale(5);
+      }
+
+      #foreground {
+        transform: translateZ(-20px) scale(3);
+      }
+      
+      .container h1 {
+        position: absolute;
+        top: 3rem;
+        color: #fff;
+        left: 50%;
+        transform: translateX(-50%);
+        text-transform: uppercase;
+        font-size: 10rem;
+        font-weight: 700;
+        text-shadow: 0 0 2px rgba(0, 0, 0, 0.719);
+      }
+
+      .box1{
+        color:white;
+        background: rgb(45, 45, 45);
+        padding:5rem 0;
+      }
+      .box1 h2{
+        font-size: 5rem;
+        padding: 0 10rem;
+    }
+    .box1 p{ 
+        font-size: 1.5rem;
+        background: rgb(45, 45, 45);
+        color:white;
+        padding: 5rem 10rem;
+    }
+    .dectext{
+        font-size: 1.5rem;
+        background: rgb(45, 45, 45);
+        color:white;
+        padding: 5rem 10rem;
+        /* margin: 5rem 0; */
+    }
+   
+    .bg1 {
+        background-image: url(sport-1.jpg);
+      }
+
+      .bg2 {
+        background-image: url(sport-2.jpg);
+      }
+
+      .bg3 {
+        background-image: url(sport-3.jpg);
+      }
+
+      .bg{
+        background-attachment: fixed;
+        height: 500px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+
+      .bg h2{
+        position: absolute;
+        top: 50%;
+        left: 49%;
+        font-size: 3.5rem;
+        color: black;
+        font-weight: 600;
+        text-transform: uppercase;
+        background-color: white;
+        padding: 0 20px;
+        transform: translate(-50%, -50%);
+      }
+
+
+
+      footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info, .footer-links, .footer-contact {
+    flex: 1;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.footer-links ul, .footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li, .footer-contact li {
+    margin-bottom: 10px;
+}
+
+.footer-links a, .footer-contact a {
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color 0.2s ease-in-out;
+}
+
+.footer-links i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+
+.footer-info {
+    border-right: 1px solid #fff;
+    padding-right: 30px;
+}
+
+.footer-info h2 {
+    color: #fff;
+}
+
+.footer-contact li a,
+.footer-links li a {
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color 0.2s ease-in-out;
+}
+
+.footer-contact li a:hover,
+.footer-links li a:hover {
+    border-bottom-color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: #fff;
+}
+
+a:link { text-decoration: none; }
