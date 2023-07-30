@@ -77,15 +77,15 @@
     }
    
     .bg1 {
-        background-image: url(sport-1.jpg);
+        background-image: url(./img/sport-1.jpg);
       }
 
       .bg2 {
-        background-image: url(sport-2.jpg);
+        background-image: url(./img/sport-2.jpg);
       }
 
       .bg3 {
-        background-image: url(sport-3.jpg);
+        background-image: url(./img/sport-3.jpg);
       }
 
       .bg{
