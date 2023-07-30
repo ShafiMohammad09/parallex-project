@@ -30,7 +30,6 @@ The website is built using the following technologies:
 
 - HTML
 - CSS
-- JavaScript (for the typewriter animation)
 
 ## Setup
 To run the website locally, follow these steps:
